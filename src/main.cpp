@@ -1,9 +1,10 @@
 #include<iostream>
 #include "../header/Chessboard.hpp"
-
-using namespace std;
+#include "../header/MovementController.hpp"
 
 int main() {
 	Chessboard chessboard;
 	chessboard.PrintBoard();
-}
+
+	return 0;
+};
