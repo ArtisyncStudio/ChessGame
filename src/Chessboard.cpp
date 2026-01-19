@@ -28,3 +28,5 @@ void Chessboard::PrintBoard() const {
 		if ((i + 1) % 8 == 0) std::cout << std::endl;
 	}
 }
+
+//test
